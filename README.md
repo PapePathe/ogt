@@ -18,9 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-Add the og prefix in the space
+Add the og prefix in your layout
   
   <html prefix="og: http://ogp.me/ns#">
+  
+  
+## Links
+  
+  http://ogp.me/
+  http://www.opengraph.be/
 
 
 ## Authors & Contributors
