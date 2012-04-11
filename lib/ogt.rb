@@ -1,5 +1,7 @@
 require "ogt/version"
+require "ogt/base"
 
 module Ogt
-  # Your code goes here...
+
+  
 end

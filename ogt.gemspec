@@ -2,6 +2,7 @@
 require File.expand_path('../lib/ogt/version', __FILE__)
 
 Gem::Specification.new do |gem|
+
   gem.authors       = ["Papa Pathe SENE"]
   gem.email         = ["pathe.sene@gmail.com"]
   gem.description   = %q{Open Graph Tags}
@@ -14,4 +15,10 @@ Gem::Specification.new do |gem|
   gem.name          = "ogt"
   gem.require_paths = ["lib"]
   gem.version       = Ogt::VERSION
+  
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'guard'
+  gem.add_development_dependency 'guard-rspec'
+  
 end
